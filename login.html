@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title> login/ register </title>
+	</head>
+
+	<body bgcolor="coral" text="white">
+	<center>
+	<h1>Login / register </h1>
+	</center>
+
+	<p><b> Login </b></p>
+	
+	<form name="log" action="http://cgi.cs.mcgill.ca/~yoh7/cgi-bin/login.cgi" method="post">
+		Username (10 chars max): <input type="data" name="user" maxlength="10"> <br/>
+		Password (10 chars max): <input type="password" name="pass" maxlength="10"><br/>
+		<input type="submit" value="Login">
+	</form>
+	<br/>
+	<br/>
+
+	<p><b> Register </b></p>
+	
+	<form name="regist" action="http://cgi.cs.mcgill.ca/~yoh7/cgi-bin/register.cgi" method="post">
+		
+		Username: <input type="text" name="setu" maxlength="10"><br/>
+                Password: <input type="password" name="setp" maxlength="10"><br/>
+		Full name: <input type="text" name="name" maxlength="20"><br/>
+		Job description: <input type="text" name="jobs" maxlength="20"><br/>
+  		<input type="submit" name="gogo" value="Register">
+                <input type="reset" value="start over">
+	
+	</form>
+
+	</body>
+</html>
